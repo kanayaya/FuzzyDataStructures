@@ -4,28 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02694ecd-c573-4e44-93b6-417a772b0928" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/FuzzyTrie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/differenceAlgorithms/FuzzyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/differenceAlgorithms/PartialDifferencer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/differenceAlgorithms/PartialLevenstein.java" afterDir="false" />
+    <list default="true" id="02694ecd-c573-4e44-93b6-417a772b0928" name="Changes" comment="start project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/FuzzyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kanayaya/FuzzyTrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/FuzzyTrie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kanayaya/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,15 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kanay/IdeaProjects/FuzzyDataStructures&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "last_opened_file_path": "C:/Users/kanay/IdeaProjects/FuzzyDataStructures",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.kanayaya.differenceAlgorithms" />
@@ -61,7 +62,7 @@
       <module name="FuzzyDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kanayaya.*" />
+          <option name="PATTERN" value="com.kanayaya.structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +89,24 @@
       <workItem from="1682413361403" duration="6620000" />
       <workItem from="1682991556653" duration="81000" />
       <workItem from="1682991672054" duration="606000" />
+      <workItem from="1683026467656" duration="858000" />
+      <workItem from="1684464758700" duration="318000" />
+      <workItem from="1684465252548" duration="61000" />
+      <workItem from="1684465326562" duration="23000" />
+      <workItem from="1684468269118" duration="50000" />
+      <workItem from="1684468327968" duration="29000" />
+      <workItem from="1684470970634" duration="10000" />
+      <workItem from="1684471261577" duration="31000" />
+      <workItem from="1687169128490" duration="659000" />
     </task>
+    <task id="LOCAL-00001" summary="start project">
+      <created>1683026522074</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683026522074</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +122,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start project" />
+    <option name="LAST_COMMIT_MESSAGE" value="start project" />
   </component>
 </project>

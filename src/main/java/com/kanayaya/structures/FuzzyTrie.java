@@ -1,8 +1,7 @@
-package com.kanayaya;
+package com.kanayaya.structures;
 
 import com.kanayaya.differenceAlgorithms.PartialDifferencer;
 import com.kanayaya.differenceAlgorithms.PartialLevenstein;
-import com.sun.istack.internal.Nullable;
 
 import java.util.*;
 
@@ -123,7 +122,7 @@ public class FuzzyTrie extends AbstractSet<String> {
                     "children=" + children +
                     '}';
         }
-        @Nullable
+
         public String fuzFindFirst(PartialLevenstein differencer, int maxDistance) {
             for (ChildNode node : children) {
                 String result = node.fuzFindFirst(differencer, maxDistance);
@@ -268,7 +267,7 @@ public class FuzzyTrie extends AbstractSet<String> {
                     ",\nchildren=" + children +
                     "}\n").replace("\n", "\n    ");
         }
-        @Nullable
+
         public String fuzFindFirst(PartialDifferencer differencer, int maxDistance) {
             int distance = differencer.increaseDifference(value);
             if (alreadyFailed(differencer, maxDistance, distance)) return null;

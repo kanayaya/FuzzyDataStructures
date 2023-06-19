@@ -1,6 +1,7 @@
 package com.kanayaya;
 
 import com.kanayaya.differenceAlgorithms.PartialLevenstein;
+import com.kanayaya.structures.FuzzyTrie;
 
 public class Main {
     public static void main(String[] args) {
