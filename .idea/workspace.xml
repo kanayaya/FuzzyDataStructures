@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02694ecd-c573-4e44-93b6-417a772b0928" name="Changes" comment="improve project structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/StringNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/ValueNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="02694ecd-c573-4e44-93b6-417a772b0928" name="Changes" comment="project done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kanayaya/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kanayaya/differenceAlgorithms/FuzzyComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kanayaya/differenceAlgorithms/PartialDifferencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/differenceAlgorithms/PartialDifferencer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kanayaya/differenceAlgorithms/PartialLevenstein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/differenceAlgorithms/PartialLevenstein.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/FuzzyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/FuzzyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/FuzzyTrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kanayaya/structures/FuzzyTrie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +103,7 @@
       <workItem from="1688821763434" duration="108000" />
       <workItem from="1690165100737" duration="2207000" />
       <workItem from="1691159876925" duration="954000" />
-      <workItem from="1691461714924" duration="39638000" />
+      <workItem from="1691461714924" duration="40672000" />
     </task>
     <task id="LOCAL-00001" summary="start project">
       <created>1683026522074</created>
@@ -129,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687170004533</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="project done">
+      <created>1691760658490</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691760658490</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start project" />
     <MESSAGE value="improve project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve project structure" />
+    <MESSAGE value="project done" />
+    <option name="LAST_COMMIT_MESSAGE" value="project done" />
   </component>
 </project>

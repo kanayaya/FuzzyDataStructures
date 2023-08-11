@@ -87,14 +87,27 @@ public class FuzzyMap<V> implements Map<String, V> {
 
     @Override
     public V put(String key, V value) {
-        for (ValueNode<V> node : nodes) {
+        if (key.equals("")) {
+            return null;
+        }
+        V added = null;
+        if (nodes.isEmpty()) {
+            nodes.add(new ValueNode<>(key, true, new ArrayList<>(), value));
+        } else for (int i = 0; i < nodes.size(); i++) {
+            ValueNode<V> node = nodes.get(i);
             if (node.key.charAt(0) == key.charAt(0)) {
-                V add = node.add(key, value);
-                if (add == null) size++;
-                return add;
+                added = node.add(key, value);
+                break;
+            } else if (node.key.charAt(0) > key.charAt(0)) {
+                nodes.add(i, new ValueNode<>(key, true, new ArrayList<>(), value));
+                break;
+            } else if (i == nodes.size() - 1) {
+                nodes.add(new ValueNode<>(key, true, new ArrayList<>(), value));
+                break;
             }
         }
-        return null;
+        if (added==null) size++;
+        return added;
     }
 
     @Override
