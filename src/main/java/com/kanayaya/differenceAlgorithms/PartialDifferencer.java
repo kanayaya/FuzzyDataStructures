@@ -6,7 +6,7 @@ public interface PartialDifferencer {
     int decreaseDifference(String piece);
 
     int getMaxDistance();
-
-    int distance(String piece);
+    int distanceNow();
     int remainingSize();
+    boolean checkAndIncrease(String piece, int distance);
 }

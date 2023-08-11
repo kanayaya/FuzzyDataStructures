@@ -8,9 +8,6 @@ public class Main {
         FuzzyTrie trie = new FuzzyTrie();
         trie.addAll("префикс", "префиксный", "префиксное", "дерево", "префиксное деревj", "тестирование", "тестирование префиксного дерева",
                 "префикс", "префиксный", "префиксное", "дерево", "префиксное дерево", "тестирование", "тестирование префиксного дерева", "алгоритм", "структура", "данные", "поиск", "поиск по префиксу", "префиксный поиск", "быстрый поиск", "быстрый поиск по префиксу", "эффективность", "эффективность поиска");
-        System.out.println(trie);
-
-
         PartialLevenstein levenshtein = new PartialLevenstein("гибралтар");
 
         System.out.println(levenshtein.increaseDifference("а"));
@@ -20,8 +17,12 @@ public class Main {
         System.out.println(levenshtein.decreaseDifference("кадабра"));
         System.out.println(levenshtein.decreaseDifference("бра"));
 
-        System.out.println(trie.fuzFindFirst(new PartialLevenstein("прbфекс"), 2));
-        System.out.println(trie.fuzFindAll(new PartialLevenstein("префиксное дерево"), 10));
-        System.out.println(trie.fuzFindClosest(new PartialLevenstein("префекс"), 2));
+        System.out.println(trie.fuzzyGetFirst(new PartialLevenstein("прbфекс"), 2));
+        System.out.println(trie.fuzzyGetAll(new PartialLevenstein("префиксное дерево"), 10));
+        System.out.println(trie.fuzzyGetClosest(new PartialLevenstein("префе дерево"), 10));
+
+        System.out.println(trie);
+
     }
+
 }
